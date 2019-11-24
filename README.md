@@ -11,6 +11,7 @@ yarn build
 yarn start # will start the interactive mode
 
 # To search in stdin stream
+# -f field is the search field
 # -q query is a regex pattern query
 # cat data/organizations.json | yarn start -m stream -f _id -q 101
 ```
